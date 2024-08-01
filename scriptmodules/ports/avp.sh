@@ -15,7 +15,7 @@ rp_module_help="Very buggy, but playable. Common issue: al lib alc_cleanup 1 dev
 rp_module_licence="MIT https://raw.githubusercontent.com/jmcerrejon/PiKISS/master/LICENSE.md"
 rp_module_repo="file https://github.com/Exarkuniv/Rpi-pikiss-binary/raw/Master/avp_rpi.tar.gz"
 rp_module_section="exp"
-rp_module_flags="!armv6 rpi4"
+rp_module_flags="!armv6 rpi4 rpi5"
 
 function depends_avp() {
     getDepends xorg
